@@ -1,0 +1,16 @@
+.iconos{
+    @include tablet{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: $separacion/2;
+    }
+    
+    text-align: center;
+    
+    img{
+        height: 10rem
+    };
+    h3{
+        text-transform: uppercase;
+    }
+}
